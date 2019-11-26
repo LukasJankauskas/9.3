@@ -1,0 +1,46 @@
+
+main {
+  width: 60%;
+  margin: 0 auto;
+
+}
+.h1 {
+  text-align: center;
+}
+.dodger {
+  position: relative;
+  width: 90%;
+  height: 900px;
+  display: inline-block;
+  background-color: tomato;
+}
+
+.white {
+  position: absolute;
+  width: 30%;
+  height: 250px;
+  background-color: white;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  top: 0;
+  right:0;
+}
+.bottom-left {
+  bottom: 0;
+  left:0;
+}
+.bottom-right {
+  bottom: 0;
+  right:0;
+}
+
+.center {
+ top: calc(50% - 75px);
+ right: 35%;
+}
